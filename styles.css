@@ -1,0 +1,41 @@
+ul {
+  text-align: center;
+  list-style: none;
+  font-size: 55px;
+  line-height: 100px;
+  color: white;
+  font-style: oblique;
+}
+body {
+  height: 1800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  width: 930px;
+  padding: 10px 20px;
+  border: 7px solid black;
+  border-radius: 5px;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.418),
+    4px 4px 6px rgba(0, 0, 0, 0.03), 5px 5px 5px rgba(0, 0, 0, 0.03);
+
+  background-color: navy;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  padding: 10px;
+  border-bottom: 7px solid #000;
+}
+
+li:hover {
+  cursor: alias;
+  color: rgb(255, 81, 0);
+  transform: scalex(1.06);
+  transition: 1s;
+  background-color: black;
+}
